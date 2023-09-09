@@ -898,15 +898,8 @@ export function Pickup() {
 }
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Pickup/>,
-  },
-]);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Pickup />
   </React.StrictMode>
-);
+)
